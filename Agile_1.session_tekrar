@@ -1,0 +1,390 @@
+Agile in kelime anlami, atik cevik 
+yani bir etki aldiginda hizlica tepki verebilen demektir 
+
+yazilim alaninda ise, degismelere, gelismelere acik, hizli cevap verebilen 
+
+hizlica geri bildirim verebilen 
+
+--Project: belirli bir zamana, efora ve planlamaya ihtiyac duyan
+isin planlanmis programidir
+
+-- Project te sunlar bulunur:
+
+Goals and Objectives
+
+Fixed period of time 
+
+certain budget (bütce)
+
+- projede kaynaklar sinirsiz degildir. zaman da bir kaynaktir
+
+
+
+-- proje yönetimleri 2. dünya svasi sonrasinda baslamistir
+
+-- 1970 lerde de waterfall model genel olarak kabul edilmistir proje yönetimi icin 
+
+-- Waterfall de bir sonraki sahfaya, ancak bir önceki safha bittikten 
+-- sonra gecilebilir 
+
+-- bu model de isin basinda hatlari  keskin ve kesinlikle uyulmasi gereken 
+-- bir planlama yapilir ve is esnasinda geri dönüs almadan
+-- isin sonuna kadar devam edilir 
+
+-- klasik bir yaklasimdir 
+
+
+
+-- Agile;  müsterilerin istek ve taleplerine güzel bir sekilde cevap verebilmek icin,
+-- projenin basindan sonuna kadar müsteri ile sürekli irtibat halinde olunan ve degisikliklere
+-- cabuk ayak uydurulabilen bir proje yönetim tarzidir 
+
+-- Agile manisfestosu 2001 yilinda Utah da 17 kisi tarafindan yayinlanmistir
+-- Bu kisiler yazilim gelistirme isinde bulunan ve o tarihte bu konuda sikinti
+-- yasayan insanlardir
+
+-- 68 kelimeden olusur manifesto 
+
+-- 4 adet value su yani degeri var
+
+-- 12 tane de bunun altini dolduran prensipleri vardir 
+
+-- Birde Agile Alliance adinda bir kurulus vardir. Bu kurulus Agile konusunda
+-- uzmanlasmis kisilere sertifika verir
+
+-- Agile sadece yazilim ile ilgili degildir. tüm sektörlerde kullanilabilir
+
+
+#######  The Four Values of the Manifesto 
+
+--1: Individuals and interactions  over  Processes and tools
+
+yani bireyler ve bunlar arasindaki iliski sürec ve tool lara göre daha degerlidir 
+
+-- bireylerin birbiri ile koordineli calismasi 
+-- bireyler calisanlar sirket icin daha degerli 
+
+
+
+
+--2:  Working Software  over Comprehensive Documentation:
+
+-- Dökümantasyon hic olmayacak degil o da önemli ama öncelik 
+-- calisan yazilimdir 
+
+
+
+
+
+
+
+-- 3:  Customer Collaboration over contract negotiation
+
+-- Müsteri proje sürecinin bir parcasidir. isin icerisine cekilir ve 
+-- her asamada irtibat halindeyiz 
+
+müsteri ile belki her sprint'in sonunda iletisim kurulur ve herhangi bir hata varsa
+-- o esnada düzeltilir. Müsterinin baska talepleri olustuysa onlar da alinir  
+
+-- eskiden müsteri sadece ürün teslim edilirken cagrilir ve ürün tesliminde 
+-- büyük tartismalar cikardi 
+
+-- Müsteri yoksa sirket yok, sirket yoksa müsteri yok 
+
+-- Ikisi de birbirini tamamlayan taraflardir
+
+
+
+
+
+
+
+-- 4:  Responding to change  over   following a plan 
+
+-- gelisimlere acik olma. 
+
+-- yani projeyi gelistirdigimiz esnada, müsteriden gelen farkli taleplere 
+-- ve degisiklik isteklerine, yada teknolojideki gelismelere acik olma 
+
+-- Waterfall da proje sonuna kadar, müsteri ile irtibat olmadigi icin, proje 
+-- sonunda konustugumuzda, büyük bir maliyet ve zaman harcanmis olur.
+-- yani bir basarisizlik durumunda tüm maliyetler ve zaman cöpe gider.
+
+-- Agile da ise her sprint sonunda müsteri ile konusulur. Bir hata bile olsa 
+-- en fazla bir sprint lik maliyet ve zaman kaybolur
+
+
+
+
+
+-- Product owner, müsteri ile sürekli irtibat halindedir
+
+
+
+
+
+
+###### Agile Principles:
+
+1:  Satisfy the customer  
+
+Our highest priority is to satisfy the customer through early 
+-- and continuous delivery of valuable software 
+
+-- müsterinin istedigi gibi bir ürün istedigi zamanda vermek 
+-- ve müsteriyi memnun etmek 
+
+
+
+
+2:  Welcome change 
+
+Welcome changing requirements, even late in development.
+Agile processes harness change for the customer's competitive 
+advantage.
+
+-- Her daim degisiklige acik olma 
+
+
+
+3: Deliver frequently (gelisim cok sik olacak ve bunu müsteri ile bulusturuyor olacagiz)
+
+Deliver working software frequently, from a couple weeks to a couple of 
+months, with a preference to the shorter timescale.
+
+-- 
+
+Not: Büyük siteler, kücük microservice lerden olusur. Mesela bir alisveris sitesindeki
+-- her bir bölüm bir microservistir. yani bir güncelleme yapmak istedigimizde, tüm kodu degil 
+-- ilgili oldugu mikroservisin kod parcasinda yapilir 
+-- Bunu container teknolojisi hayatimiza getirdi 
+
+
+
+
+
+4: Work together 
+
+Business people and developers must work together
+daily throughout the project.
+
+
+
+5: Trust and support 
+
+Build projects around motivated inividuals. Give them the environment
+and support they need, and trust them to get the job done. 
+
+-- hem insanlar birbirine güvenecek hem de sirket calisanlarina güvenecek 
+
+
+
+6: face to face conversation (hem takim icin de hem de müsteri ile )  
+
+The efficient and effective method of conveying information to and within a 
+development team is face-to-face conversation 
+
+
+
+
+7:  Working software
+
+Working software is the primarymeasure of progress
+
+
+8: sustainable development
+
+Agile processes promote sustainable development.
+The sponsors, developers, and users should be able to maintain
+a constant pace indefinitely.
+
+-- sürdürülebilir bir calisma olmali. mesela calisanlar günde 15 saat calistirarark
+-- bir sonraki projede bitip tükenmemeli
+
+
+
+
+9: Continuous Attention (sürekli olarak piyasadaki trendleri analiz etmek)
+(facebook un gencler arasinda modasi gecmesi gibi)
+
+Continuous Attention to technical excellence and good design enhances agility
+
+- ürünü üretip sattiktan sonra isimiz bitmiyor. hem teknik hem kullanim acisindan
+müsteriden sürekli olarak geri dönüs alip eksiklerimiz varsa bunlari düzeltmemiz gerekir 
+
+
+
+10: Maintain simplicity   
+
+Simplicity the art of maximizing the amount of work not done is essential.
+
+-- ürünü basit tutmamiz gerekir 
+
+-- hitap etigimiz kitlenin durumuna göre basitlik 
+
+
+
+
+11:  self organizing teams (herkes ne is yapacagini biliyor)
+
+The best architectures, requirements and design emerge from self organizing teams
+
+-- en iyi mimari kendi kendine organize olmus takimlar tarafindan yapilabilir
+
+
+
+
+12: reflect and adjust  (yani sapkamizi önümüze koyup kendimizi iyi kötü degerlendirmek)
+
+At regular intervals, the team reflects on how to become more effective, then tunes and 
+adjusts its behavior accordingly
+
+- belirli araliklarla, kendimizi nasil gelistirabiliriz, nasil daha effective olabilirz konusunun 
+- konusuldugu toplantilar yapilir 
+
+
+
+
+
+
+--Ayni anda birden cok prozess yürütülmeye calisilmaz. 
+-- Öncelikle bir sürec bitirilir daha sonra baska bir sürece gecilir 
+
+
+-- Agile:
+
+-- insanlarin kafasindaki klasik düsünceleri yikti 
+
+-- IT Team ile Business team arasindaki iliskileri degistirdi ve aradaki iletisim kopuklugu giderildi
+
+--Bu produkt owner vesilesi ile oldu 
+
+-- DevOps da development ile operation arasindaki duvar yikilmisti
+
+
+
+
+
+
+-- PMI (project management institute) : Agile konusunda sertifika veren kurulus 
+
+-- Agile'in birinci önceligi; Satisfy the Customer 
+
+-- "Build projects around motiveted individuals" bu cümle asagidaki cümle ile uyusur
+
+-- Trust the team to get the job done 
+
+
+
+
+
+
+
+
+### Agile Methods:
+
+-- Agile bir mindset tir, yani yazilim gelistirmeye, is yapisa yaklasim tarzidir 
+
+-- Agile bir semsiyedir. Bunun altinda bircok specific metodoloji gelistirilir 
+
+-- en önemlileri Scrum ve Kanban dir 
+
+- yani scrum ve kanban agile'in uygulama yöntemidir 
+
+-- Waterfall da tüm ürün tek parcada ele aliniyordu ve kod da hata ciktiginda tüm parcada 
+-- ayiklama yapilmaya calisiliyordu 
+
+-- Agile,da;
+
+-- Bir ürün, kücük parcalara bölünerek daha kolay ve hizli bir sekilde gelistirilebilir 
+
+-- Kücük parcalar iteration cycle lari icerisinde üretilebilir
+
+-- iteration lar kullanilarak, degisiklikler final product beklenmeden yapilabilir 
+
+--  dolayisi ile Agile bize sürdürülebilir bir is hayati sunmaktadir 
+
+
+
+
+
+
+
+
+
+
+########################## Scrum:
+
+
+Scrum, insanlarin mümkün olan en yüksek degere sahip ürünleri sunarken,
+karmasik sorunlari ele alabilecekleri bir framework
+
+-- Scrum,  sprint ler olarak bilinen kisa iteration lar ile 
+-- is degerini sik sik vurgular
+
+-- devamli iteration oldugu icin sürec salyangoz sekli ile ifade edilir 
+
+-- biz de sprintleri uyguladigimiz icin scrum'i uyguluyoruz 
+
+-- Iteration in olmasi, yapilan isin görülmesini saglar ve 
+-- feedback icin firsatlar sunar 
+
+-- Scrum 1990 larda Agile dan önce gelistirilmistir 
+
+-- Scrum Framework:
+
+
+
+######### Product owner: 
+
+-- execute icra yetkisine sahip, müsterilerden bildirimleri yada isterleri alan 
+-- ve bunlari development takimina is emirleri seklinde yansitan kisi 
+
+-- is tanimlarini detayli bir sekilde herkesin anlayabilecegi sekilde yazar 
+-- team icerisinde gelismis ve takimi cok iyi taniyan birisidir 
+
+-- hem müsterileri hem de takimi iyi anlayabilen bir kisi 
+
+-- takvimi, is akis semasini, görev dagilimini, tüm bu isleri yapar 
+
+-- bir kisiden fazla da olabilir 
+
+-- Produkt owner'in team ile iletisim kurma vasitasi Product Backlog lardir 
+
+-- Backlog lar proje tanim dökümani dedigimiz dökümanlarin digitallestirilmis halidir 
+
+-- Backlog lar genelde product owner tarafindan yazilir yada,
+
+-- product owner epic leri yapar, epic lerin altini da senior developer doldurur
+
+-- Product backlog larda, bir proje de yapilacak her bir is kalem kalem yazilir 
+
+-- mesela bir web sitesinin giris kismi, giris kismindaki butonlar, logolar hepsi ayri bir kalem 
+
+-- Product Backlog = (Ranked list of what is required)
+
+-- yani ihtiyac duyulanlarin sirali listesi
+
+-- tüm ihtiyaclar aynni anda yazilacak diye birsey yok 
+
+-- backlog lar da sprint ler halinde yazilabilir 
+
+
+
+
+-- Ana Product backlog hazirlandiktan sonra Sprint Backlog asamasi gelir 
+
+-- yani ana backlog dan bir sprint te tamamlanmasi planlanan isler secilir ve sprint backlog'a atilir
+
+-- bu isler sprint süresince tamamlanmaya calisilir 
+
+
+
+
+-- her sabah "Daily stand up meeting " adinda kisa bir toplanti yapilir 
+
+-- burada team üyeleri, bir önceki gün ne yaptigini, bugün ne yapacagini kisaca anlatir
+
+-- bu anlatim sözlü de olabilir yada jira gibi programlarda ekrana yansitilarak da yapilabilir 
+
+--     
