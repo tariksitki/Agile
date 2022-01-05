@@ -387,4 +387,56 @@ karmasik sorunlari ele alabilecekleri bir framework
 
 -- bu anlatim sözlü de olabilir yada jira gibi programlarda ekrana yansitilarak da yapilabilir 
 
---     
+
+
+-- Product owner altinda calisan herkesi anlik olarak takip edemez. sabah yapilan toplantilar 
+-- ile hem product owner calisanlarin güncel durumundan haberdar oluyor hem de durumsal farkindalik 
+-- olusuyor 
+
+
+
+
+
+
+########## Sprint review Meeting:
+
+-- Sprint sonunda müsteri cagrilir ve o sprintte neler yapildigi müsteriye anlatilir
+
+-- Her sprint sonunda bu uygulandigi icin müsterinin devamli görüsleri alinir 
+
+
+
+
+
+
+
+
+##############   Sprint Retrospective Meeting:
+
+-- bu toplantiya müsteri katilmaz. sadece team deki herkes katilir. 
+-- önce iyi yaptiklarimizi daha sonra ise eksik yaptiklarimizi konusuruz 
+
+
+
+
+
+
+############# Scrum genel isleyis:
+
+
+## Product owner,   costumer lardan, users lardan yada stakeholder lardan istekleri alir 
+
+-- daha sonra bunlari Product backlog lari seklinde hazirlar
+
+-- sonrasinda bunlar sprint backlog'ina dönüstürülür 
+
+-- sprint ler esnasinda daily meeting ler yapilir 
+
+-- sprint bittiginde müsteriler ile sprint Review yapilir 
+
+-- sonrasinda sadece team ile sprint Retrospective yapilir 
+
+-- tüm sprintler bu sekilde tamamlandiktan sonra Ürün teslim edilir 
+
+
+-- 
