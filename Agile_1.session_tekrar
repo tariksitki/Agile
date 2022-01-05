@@ -439,4 +439,72 @@ karmasik sorunlari ele alabilecekleri bir framework
 -- tüm sprintler bu sekilde tamamlandiktan sonra Ürün teslim edilir 
 
 
--- 
+
+
+
+
+
+############ Scrum Practices:
+
+########  Roles:  
+
+1: Product owner:  Projenin vizyonunu, ihtiyaclarini ve önceliklerini
+
+    tanimlayarak projenin basarisindan sorumludur
+
+    takim üzerinde icra yetkisi vardir. takimi yönetir 
+
+    - Product backlog larin acik bir sekilde hazirlanmasi
+    - Developmen tteam inin ortaya koydugu isin degerini optimize etme 
+    - Backlog larin herkes icin acik, seffaf oldugundan emin olmak ve 
+     team in gelecekte ne yapacagini göstermek 
+     
+
+2: Scrum master: Product owner in vermis oldugu hedeflere ulasmalarinda
+
+    team in karsilasmis oldugu problemleri ortadan kaldirmak da sorumludur 
+
+    aslinda takimin icinden biridir. Kidemli birisidir takimi ayakta tutar
+
+    product owner ile team arasinda köprü vazifesi
+
+3: Development Team: genellikle 3 ila 9 kisiden olusur. Bu kisilerin görevleri mix seklindedir
+
+    Ve bunlar product owner dan alinan isin en iyi yapma yöntemini bulmak icin self organized dir 
+
+########  Ceremonies:
+
+1: Sprint Planning
+
+2: Daily Scrum 
+
+3: Sprint Review (müsteri katilir. Bu toplanti Agile icin cok önemli)
+
+4: sprint Retrospective
+
+5: Product Backlog Grooming 
+
+
+######## Artifacts:  (eserler)
+
+1: Product Backlog 
+
+2: Sprint Backlog (bütün yigin halinde duran islerden tek sprintlik isler alinir)
+
+3: Product Increment ( Sprintler sonunda bitirilen isler,
+
+Bunlar done sütununa cekilen isler)
+
+
+
+
+#### Agile bir umbrelladir
+### Scrum ise Agile altinda bir Framework tür yani Agile uygulama yöntemidir 
+
+-- Yani Scrum Mindset degildir 
+
+
+
+
+-- Monday.com da jira ile ayni vazifeyi yapar 
+
