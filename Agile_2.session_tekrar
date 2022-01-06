@@ -1,0 +1,184 @@
+-- Kanban da scrum gibi Agile in bir framework udur yani uygulamasidir 
+
+-- Product backlog lara türkce olarak is listesi diyebiliriz (digital ortamda)
+
+-- Her bir backlog sifirdan yazilmak zorunda degildir 
+
+-- Proje starter lari genel olarak birbirine benzer o nedenle cogu projenin 
+-- baslangicinda önceki projelerin starter lari kullanilabilir 
+
+-- Sprint ler iteration dur. 
+-- Sprintler artirimli ürün cikartirlar 
+
+-- Mesela, Clarusway in server in da, bizim görecegimiz tüm dersler, Backlog olarak yigin olarak 
+-- tutuluyor ancak bize ikiser haftalik sprint backlog olarak sunulur
+
+-- Daily meeting toplantilari genellikle ayakta ve kanban yada scrum board u önünde yapilir 
+
+-- Sprint retrospective meeting e Product Owner da katilir 
+
+-- Product Backlog Grooming meeting de bir önceki sprint de tamamlanamayan isler 
+-- bir sonraki sprint e aktarilir 
+
+-- Product Increment, her sprint sonunda cikardigimiz üründür. Bu ürün Sprint review toplantisinda
+-- müsteriye arz edilir 
+
+-- Scrumda sprinlerin zaman sinirlamasi vardir.
+
+-- Eger bir zaman sinirlamasi yoksa ve sonuc olarak ortaya bir ürün cikarilmiyorsa bu duurmda Kanban kullanimi 
+-- daha mantikli olabilir 
+
+-- Takimin karsilastigi zorluklari üst kademeye Scrum master iletir 
+
+-- Scrum masterin görevi takima hizmet etmek ve takimin yaptigi isleri engelleyecek seyleri 
+-- ortadan kaldirmaktir 
+
+
+
+
+
+
+######## Epic, User Story, Task:
+
+
+-- Hiyerarsik siralama su sekildedir 
+
+1: Epic (yani epic ler user story lerden olusur )
+
+    Defines the business needs
+
+    Big chunk of work 
+
+    Few lines of description
+
+    More than one sprint to complete
+
+    Mesela bankacilik sirketine ait bir web sitesi yapmak 
+
+    Jargon olarak söyle tanimlanir:
+
+    As a bank, we want a facial recognition system in our branches 
+
+    Epic ler büyük hedeflerdir. Bu nedenle developerlar icin büyük seviyelerdir. 
+    Epic lerin nasil yapilacagini development ekibine task ler ile yada user story ler 
+    ile anlatiriz 
+
+
+
+
+2: User Story
+
+    Defines the Customer needs 
+
+    Mesela bir web sitesinin bir servisi, bir kismi 
+
+    Birkac tane task dan olusur 
+    Altinda, front end e ait bir task, back end e ait bir task gibi seyler vardir 
+
+    User needs 
+
+    Deliver during a sprint 
+
+    Example: As a registered user, I want to add items to the cart so that I can 
+    purchase multiple items at once
+
+3: Task 
+
+    Defines the solutions
+
+    Bunlar bir developer a verilen günlük birkac günlük islerdir
+
+    Represent a technical activity
+
+    description of individual work item
+
+    created by anyone
+
+    Example:
+    Redesign a single web page
+
+    create a new logo 
+
+    perform usibility testing
+
+
+
+
+Example:
+
+Epic:  New year party
+
+User Story: Shopping for the party 
+            Decorating the house
+            Cooking for the Guests
+
+
+Tasks: Raw materials for cooking 
+        Gifts for ths guests 
+
+        painting the exterior area
+        put up a gift tree 
+
+
+
+
+
+## Click up 
+    Jira 
+    Trello
+    Monday.com 
+    Asana 
+
+Bunlar, Agile in uygulandigi ortamlardir 
+
+
+
+
+
+## Estimation:  (Görevler de zaman planlamasi icin kullanilan birimler)
+
+1: T-Shirt Sizing (S, M, L, XL)
+
+2: Story Points (1, 2, 3, 5, 8, 13, 21)
+
+
+
+
+-- Product backlog lar olusturulduktan sonra da is ilavesi yapilabilir 
+
+
+
+
+
+
+######## Product Backlog:
+
+Ordered list of everything
+
+List of prioritized items 
+
+Product owner responsible
+
+Dynamic 
+
+Should be refined regularly (Düzenli olarak incelenmeli)
+
+
+
+
+
+-- Product increment da sadece icinde bulundugumuz sprint in sonuclari alinmaz
+-- hem önceki tüm sprintlerin sonuclari hem de su an ki sprint sonucu birlesimidir
+
+Ayni zamanda biten müsteriye teslime hazir ürün de ayni ismi alir 
+
+-- Sprint sonunda güncel Increment "Done" yapilmalidir 
+
+
+
+Soru: Backlog larda isleri kim önceliklendirir?
+
+-- Product owner 
+
+
+
