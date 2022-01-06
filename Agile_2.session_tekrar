@@ -184,3 +184,277 @@ Soru: Backlog larda isleri kim önceliklendirir?
 
 --- Scrum da Kanban da genel mantalite, isleri kücük parcalara bölmek ve 
 yapilabilir hedefler belirleyerek etkinligi artirmak
+
+
+
+
+
+
+
+############## Ceremonies:
+
+#### Scrum Meetings:
+
+1: Sprint Planning: 
+
+-- Önümüzdeki sprint te neler yapilacaginin planlandigi meeting dir 
+
+-- Bu meeting de, product backlog dan sprint backlog a alinacak isler belirlenir 
+
+
+
+
+
+2: Daily Stand up:
+
+-- 15 dk dir. 3 Soru vardir 
+- Dün ne yaptim, bugün ne yapacagim, isime engel olan blocker lar 
+- engeller var midir ?
+
+-- katilan asil kisiler, development team 
+
+
+3: Sprint Review: 
+
+-- Tamamlanan is müsteriye sunulur ve müsteri ve stakeholder lardan 
+- geri dönüs alinir 
+
+4: Retrospective :
+
+-- takim üyeleri arasinda, gecen sprint te neler iyi yapildi neler 
+-- kötü yapildi ve improvements (iyilestirmeler) konusulur 
+
+
+
+
+-- Sprint icerisinde bir yada birkac tane ticket yada task tamamlanamadiginda ne olur?
+
+-- Yapilamayan isler bir sonraki sprint e planlanir 
+
+
+
+
+-- Üst kademe yöneticiler, jira da istatistiki bilgileri cekebilirler.
+-- mesela spesific bir isin ne kadar sürede tamamlandigina dair bir bilgi 
+
+-- Buna Burndown chart denir 
+
+
+-- Scrum mastrer in görevi:
+
+coaches the team (yani bir nevi abilik yapmak )
+
+-- Iteration dedigimiz sey sprint in karsiligidir 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+########################## KANBAN 
+
+
+## Kaizen: üretim bandina yeterli ve zamaninda hammaddeleri koymak 
+-- ciktilari da zamaninda ve yeterince elde ederek üretimin sürekliligini saglamak 
+-- temel mantigina dayanir 
+
+-- Kanban da ilerletilen kartlar , kartlarin sergilenmesi 
+
+-- Kan + ban : görünen kartlar demektir 
+
+-- Kanban, kaizen felsefesi icerisinde bulunan bir yöntemdir 
+
+-- Toyota tarafindan gelistirildi 
+
+-- 2004 yilindan sonra software alaninda kullanilmaya baslandi 
+
+
+
+
+-- Jira da kanban board acildiginda defaul olarak 4 sütun gelir 
+
+1: To Do 
+
+2: Ongoing (veya in Progress)
+
+3: Review 
+- mesela kendi brach imizde bir islem yaptik ve bunu pull request yaptik 
+- amirimiz tarafindan onaylanmayi bekliyor 
+- bu esnada kartimiz burada bekler 
+
+4: Done 
+
+- tüm testlerden gecen yapilan isler 
+
+
+
+
+
+--- WIP (Working progress)
+
+-- Takimimizdaki kisi sayisina göre, ayni anda in progress sütununda ne kadar 
+--is olacagi konusunda bir limit 
+
+
+
+
+--- Lead Time: to do listesinin en basindan, done sütununun basina kadar gecen süredir 
+
+-- yani isin tanimlandigi noktadan bittigi ana kadar gecen süre 
+
+
+-- Cycle Time: To do sütunu haric, done sütununun basina kadar gecen süre 
+
+-- yani code editörümüzü acip calismaya basliyoruz. buradan isin bittigi ana kadar 
+
+
+
+
+
+
+
+
+####### Principles of Kanban 
+
+-- Kanban scrum gibi radikal degisiklik getirmez
+
+
+
+1: Start with what you are doing now 
+
+-- yaptiginiz is ile devam edin. radikal degisiklik yok. 
+
+-- degisiklik olacaksa yavas yavas yapilmalidir  
+
+2: Agree to pursue incremental (artirimli takibi kabul etmek)
+
+3: Initially respect current roles 
+
+-- Scrum da rol dagilimi oldugu gibi kanban da rol diktesi yoktur
+
+-- Kanban bir mantalitedir yani is yapis yöntemidir 
+
+-- Bu nedenle ekstra bir rol gerektirmez
+
+4: Encourage leadership at all levels
+
+-- Flat hiyerarsi, yani herkes ayni seviyede 
+
+-- Scrum da sadece Product owner icraci yaptirici rolündeydi diger team elemanlari 
+-- arsinda astlik üstlük yoktu.
+
+-- Kanban da da her seviye de liderlik var ve kisiler arasinda hiyerarsi yok 
+
+
+
+
+
+
+
+
+##### Practices of Kanban:
+
+1: Visualizing the Workflow
+
+-- Kanban in ilk adimi görsellestirmedir.. Ilk prensibi ise "su an 
+ne yapiyorsan onunla devam et"
+
+-- sirketlerin dünyanin 4 tarafinda calisanlari var. Tüm calisanlarin 
+-- ayni anda ve organize bir sekilde calisabilmasi icin görsellik saglar 
+
+-- Hem kendi islerimizi hem de takim arkadaslarimizin islerini rahatlikla görürüz
+
+2: Limit Work in Progress:
+
+-- Takimimizin bir limit var ve bu limitten fazla is yüklemiyoruz 
+
+3: Managing Flow:
+
+-- Is akisimizi kendimiz yönetiyoruz. yani ne yapmamiz gerektigini biliyor ve 
+-- kendimizi ona göre planliyoruz 
+
+4: Making Process Policies Explicit 
+
+-- Takim Calisanlarina Uyulmasi gereken kurallar acik ve seffaf bir sekilde 
+ifade edilir ve dökümente edilir 
+
+-- acikta bir durum kalmaz 
+
+5: Implementing Feedback Loops:
+
+--  Geri bildirimler yapilir
+
+-- Müsterilerin ne düsündügünü bilmemiz gerekir. 
+
+6: Evolving Experimantally:
+
+-- Geri bildirimler ile ve tecrübeler ile  kendimizi gelistiririz 
+
+
+
+
+
+
+
+
+###### Kanban ve Scrum:
+
+-- Ürün gelistiren developmen ekibi genel de scrum uygularken 
+
+-- herhangi bir ürün gelistirmeyen DevOps ekibi de Kanban uygulayabilir
+
+-- Scrum da sprint ler icin süre kisitlamasi var 
+-- Bu süre icerisinde ürün istenilen seviyeye getirilmeli 
+
+-- Kanban da süre yok 
+
+-- Scrum da planlanan tüm sprint lerin sonunda bir ürün ortaya cikar 
+
+-- Kanban board u bittiginde ise ortaya bir ürün cikmaz 
+-- sadece kendi islerimizi takip eder yönetiriz 
+
+-- Herkes kendisine verilen rolü yerine getirir 
+-- Kanban da rol yok 
+
+-- Ceremoniler vardir standart toplantilar vardir 
+
+-- Kanban da ise, sürekli gelisen bir sürece odaklanma vardir 
+-- standardize edilmis toplantilar yoktur 
+
+
+
+
+-- Hangi methodun kullanilacagi tamamen sirketin kendisine kalmistir 
+
+
+-- Birde scrum ile kanban in birlestirilmis hali vardir 
+
+-- Buna Scrumban denir. Iki yöntemden de isine gelenleri aliyor digerlerini almiyor 
+
+
+
+
+
+
+
+### Kanban focused on visualizing the flow (görsellestirme)
+
+-- Kanban board fiziksel de olabilir digital de 
+
+-- The maximum numbe of cards that can be in a column is called  WIP limits 
+
+
+
+
+
+
+
