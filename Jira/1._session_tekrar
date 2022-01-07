@@ -104,6 +104,13 @@
 
 -- Hizmet kesintisi yasamadan, arka planda otomatik server eklenir
 
+-- Bu yöntem tüm sorumluluklari bizim üzerimizden alir ve böylece biz sadece 
+
+-- isimize odaklaniriz
+
+
+
+
 2:  Server (2 ve 3. secenek self managed options lardir)
 
 -- Pc lerin satin alinmasindan en son asamaya kadar tüm sorumluluk bizim sirketimize ait
@@ -113,6 +120,13 @@
 -- On premise denir 
 
 -- Linux kurulumu, pc sogutmalari hersey bize ait
+
+-- Gizli verilere sahip sirket yada hükümetler icin önemli bir yöntem olabilir
+
+
+
+
+
 
 3:  Data Center
 
@@ -128,4 +142,43 @@
 
 -- Burada güncellemeler bize ait 
 
+
+
+
+
+
+
+####### Jira Kullanimi:
+
+-- Dashboard: bir proje acildiginda, karsimiza cikmasini istedigimiz bilgilerin bulundugu arayüz
+
+-- Activity Stream: Tüm jira ile ilgili degil, bizim dahil oldugumuz projeler ile ilgili son dakika gelismeleri 
+-- Arkadaslariniz sunu yapti, siz sunlari yaptiniz gibi 
+-- Default olarak gelmez biz dashboard butonundan ayarlariz
+-- Daha sonra edit tusuna tiklayarak "Activity stream " seceriz
+-- Add a Gadget 
+
+-- Edit > Assign to me   bu da bize atanan görevler
+
+-- Eger dashboard umuz yoksa;
+
+-- Dashboard > create dashboard 
+
+-- Burada, Viewers ve Editors secenelerinden, dashboard u kimin görebilecegi ve kimin edit edebilecegi ayarlanir 
+
+
+-- Isimize yarayan gadget lari google dan bulabilirz 
+
+-- ayarlardan jira yerine kendi logomuzu ekleyebilirz 
+
+
+
+--- Your work butonu :
+
+-- Burada bize atanan isler,
+-- Son yaptiklarimiz 
+-- Ve takip ettigimiz board lar görünür 
+-- Board kismi neden görüntülenir, cünkü birden cok board takip ediyor olabilirz 
+
+-- 
 
