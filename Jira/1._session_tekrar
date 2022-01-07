@@ -1,0 +1,131 @@
+
+--  Waterfall dan agile a gecerken, bu tarz yönetimin takip edilecegi bir yazilima ihtiyac duyulmustur.
+
+-- Yani büyük capta takimlari yönetirken, böyle bir ihtiyac ortaya cikmistir 
+
+--- Mesela 20 kisilik bir takimda tek tek arayarak is takibi yapmak zordur.
+
+-- Calisan ile hic muhattap olmadan, Issue tracking kismi ile o kisinin anlik oralar isinde 
+-- ne asamada oldugunu takip edebiliyoruz
+
+-- Jira nedir?
+
+1: Project management
+
+2: Issue Tracking
+
+-- Issue derken sadece sorun problem algilamiyoruz. Backlog da yapilmasi gereken bir is kalemi de Issue olarak düsünülür
+
+-- Epic, Task yada Subtask olabilir
+
+3: Bug Tracking  (Yazdigimiz kod da yada islem de hata oldugunda bug tacking acarak takibini yapiyoruz)
+
+
+##### Jira'nin bize sagladiklari
+
+--- Kanban bizelere calisma ortamimizda, Agile'i uygularken kartlar ile görsellik sagliyordu
+
+-- Jira ise, bu mantaliteyi digital ortama aktarmistir 
+
+-- Yani insanlar simdi, zoom üzerinden toplantilar düzenleyerek, jira ekranini paylasiyor ve bu sekilde 
+
+-- görev dagilimlari ve tüm konular üzerinde rahatlikla konusabiliyorlar
+
+-- Jira sadece software alaninda kullanilmaz
+
+-- Enerjisinin cogunu organize olmaya harcayan sirketler, simdi tüm enerjisini islere verdigi icin 
+
+-- sirketlerin performansi cok artmistir 
+
+
+-- Hem team personeli icin hem de üst kademe icin kolaylik. Üst kademeye verdigi raporlar ile, yönetimi kolaylastirir 
+
+-- Team icerisinde iletisimi kolaylastirir 
+
+--  
+
+-- Jira 2002 yilinda ortaya cikti 
+
+-- Jiracore, yazilim alani disindaki firmalara hizmet verir 
+
+-- Sirketimiz bünyeisinde müsteri hizmetleri gibi bir departman yönetiyorsak bu durumda 
+-- Jira service desk kullanilir. (Calisanlarin, kulakligim calismiyor, mausum calismiyor gibi)
+-- Burada ihtiyaci olan kisi ticket acar, sorumlu kisi de gidip tamir eder 
+
+
+
+-- Atlassian in bir de Confluence adinda bir ürünü vardir. Burada sirketimizin database i gibi kullanilir.
+
+-- mesela bir isi ilk kez yapan birisi, bu isi nasil yaptigini, yaparken ne ile karsilastigini dökümente ediyor ve 
+
+-- bunu confluence de sakliyor 
+
+
+-- Atlassian access yetkili kisilerin girmesi icin kurulmus bir program 
+
+
+-- Jira software: Software developers
+
+-- Jira align: Large organizations
+
+-- Jira Core:  Business users
+
+-- Jira service desk:  Service desk agents
+
+
+
+
+
+
+
+############# Hosting Options (Jira yi kullanma ve yükleme secenekleri)
+
+1: Cloud:
+
+-- Burada hicbir seye karismiyoruz. Atlassian in sitesine girip sirket ve calisan bilgilerimizi giriyoruz
+
+-- Jira da bize gerekli sifre ve dökümanlari email ile gönderiyor ve hersey kullanima hazir oluyor
+
+-- Buna "Software as a service" denir
+ 
+-- Özellikleri:
+
+-- Fast start up
+
+-- Reduced Costs
+
+-- No need to upgrade
+
+-- Work on the go 
+
+-- Security
+
+-- Scale with confidence (güvenli ölceklendirme) (yani bir an da 50 kisi de girse 1000 kisi de girse sikinti yok)
+
+-- Hizmet kesintisi yasamadan, arka planda otomatik server eklenir
+
+2:  Server (2 ve 3. secenek self managed options lardir)
+
+-- Pc lerin satin alinmasindan en son asamaya kadar tüm sorumluluk bizim sirketimize ait
+
+-- Maliyeti büyüktür. 
+
+-- On premise denir 
+
+-- Linux kurulumu, pc sogutmalari hersey bize ait
+
+3:  Data Center
+
+-- Pc almiyoruz, aws gibi bir data center da server kiraliyoruz
+
+-- kendi binamiza kurmadik, top azure yada amazon a atildi
+
+-- Ama jiradan bize bir cd yada bir media gelecek. Biz bunlari kendimiz kuracagiz 
+
+-- Yani pc lerin alt yapi sorumlulugu bizde degil. Sadece kurulumlari biz yapiyoruz
+
+-- Burada sadece devops ve cloud engineer a ihtiyac duyariz 
+
+-- Burada güncellemeler bize ait 
+
+
