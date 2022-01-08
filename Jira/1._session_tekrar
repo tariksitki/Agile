@@ -180,5 +180,83 @@
 -- Ve takip ettigimiz board lar görünür 
 -- Board kismi neden görüntülenir, cünkü birden cok board takip ediyor olabilirz 
 
+-- Project butonuna bastigimizda, karsimiza bir kanban yada Scrum board u cikar.
+-- Burada to do, in progress ve done sütunlarindaki isleri görürüz 
+
+
+
+--- Dashboard da kisilere ait ticket lara tikladigimizda hem onlara mesaj gönderebiliyoruz hem de yeni görev atamasi tarzinda islemler yapabiliyoruz 
+
+-- Dashboard da cikan kisi fotolarina tikladigimizda  sadece o kisi ile ilgili isleri filtreleriz 
+-- ayni sekilde epic e tikladigimizda da istedigimiz epic leri filtreleyebiliriz
+
+-- Sag tarafta bulunan Group by butonu ile dashboard u epic bazli kisi bazli satirlara ayirabiliyoruz 
+
+-- People butonu:
+
+-- Takim arkadasi davet edebiliriz yada yeni bir team baslatabiliriz 
+
+-- google, slack, microsoft yada sadece email ile davet edilebilir 
+
+
+-- Apps butonu ile de app leri ilave edebilirz 
+
+-- Ekranin solunda "Project Pages" butonu var. Bu buton tikladigimizda karsimiza dökümanlar cikar.
+-- Bu dökümanlara tikladigimizda dökümanin ilgili oldugu app e yönlendirir
+
+-- Apps de "Find new apps "  tusu ile yeni app ler ekleyebilirz 
+
+-- Jira slack ile entegre edildiginde,  bize verilen isler slack de görünür 
+
+
+
+
+--- Ayarlar da user management seceneginden, hangi kullaniciya hangi yetkiyi verecegimizi ayarlayabiliriz 
+
+-- Daha sonra bu kullaniciyi bir gruba atariz. Mesela developer grubu 
+
+-- Yeni bir developer sirkete geldiginde, bu kisiye teker teker tüm yetkileri vermekle ugrasmayiz, bunuhn yerine 
+-- olusturdugumuz gruba atariz bu kisiyi ve grubun tüm yetkilerine sahip olir 
+
+-- Ancak user Management secenegi, jira admin tarafindan görülebilir.
+-- sirketlerde muhtemelen bize kapali olur 
+
+
+-- Yine ayarlarda billing seceneginde, faturalandirma detaylari vardir. Biz ücretsiz kullandigimiz icin bizde bir ücret görünmez 
+
+-- Sol üstte 9 noktadan olusan kareye tikladigimizda, icinde bulundugumuz jira nin kime ait hesaptan acildigini görebiliriz 
+
+-- Settings > System > Roller: Burada yeni bir rol olusturulur ve buna yetkiler verilir 
+
+
+
+-- Settings de Projecte seceneginde, projelerimiz görebilir ve burada projelerin ayarlarini degistirebiliriz 
+-- isim degisikligi, icon degisikligi, proje yöneticisi gibi 
+
+-- Daha sonra yine ayni kisimda ekranin solunda, board a tiklayip, projemizin board ayarlarini degistirebiliriz 
+-- Default olarak sadece 3 sütun acilir bunlara 1 sütun daha eklenebilir 
+
+
+-- Access kisminda da giris yetkileri yapilandirilir
+
+-- Issue types butonunda da default olarak,  epic, task ve story ler atanir
+
+-- Eger ilave etmek istersek kendi istedigimiz isimde bir issue eklenebilir 
+
+
+-- Bu kisimda, issue mizda bulunmayan kisimlari, sag altta bulunan yerden sürükleyip cekerek ekleyebiliirz 
+-- Mesela, Priorität eklenebilir 
+
+
+-- Notifications seceneginde, Bir islem yapildiginda kimlere haber gitmesi gerektigini ayarliyoruz 
+-- Mesela issue olusturuldugunda yada silindiginde
+
+
+
+
+
+
+##################  Jira Concepts:
+
 -- 
 
