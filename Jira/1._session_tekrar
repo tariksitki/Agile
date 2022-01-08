@@ -258,5 +258,90 @@
 
 ##################  Jira Concepts:
 
--- 
+-- Issue ekleme:
 
+-- Ana sayfada Projects sekmesine geldigimizde, create butonu ile yeni bir issue olusturabiliriz
+-- Olusturma esnasinda bize ne olusturmak istedigimizi sorar,
+-- Epic, task yada story. Ama biz ayarlardan birde test ekledigimiz icin test de cikar 
+
+-- Hiyerarsi:
+
+--- Initiative:  Bir yilin birden cok cegreginde yapilacak isler
+
+1: Epic : 1 ay yada bir cegrekte yapilacak isler 
+2: Story :  1 Sprint lik is olabilir
+3: Task : 1 gün yada birkac gün 
+4: Subtask :  
+
+--- Bunlarin en üstünde ise Initiative yani Epic lerin olusturdugu Yapiya "Initiative" denir 
+-- Ancak bu jira da sergilenmiyor. Istersek bunu ayarlardan ekleyebiliriz
+
+-- Bu terimlerin hepsi Agile a ait olan terimlerdir. Jira da da kullanilir 
+
+
+
+
+
+############  Jira User Types:
+
+1: Jira Administrator:
+
+-- Tüm kullanicilar icin, Jira instance lari configüre eder 
+
+-- Jira da neler yapabilecegimizi ve hangi jira ürünlerine giris yetkimiz 
+-- olacagini düzenleyen kisi 
+
+
+2: Jira Project Administrator:
+
+-- Jira project lerini, takim prosesine uygulamak icin configüre eder 
+
+
+
+
+3: Team Member:
+
+
+
+
+
+-- Eger sirket büyükse birden cok jira admin ve birden cok project admin calistirilabilir 
+
+
+
+
+
+## Git commit yaptigimizda, 
+
+-- git commit -m "utf-8" yani jirada ki ticket numaramizi yazarsak jira otomatik olarak commiti ceker 
+
+
+-- Jira Kullanim amaci:
+
+1: Issue tracking 
+2: Bug tracking 
+3: Project management 
+
+
+### What is a Jira Project?
+
+-- a collection of issues 
+
+
+
+
+### UCT-16  COH-10 gibi sayilar Project key olarak gecer ve her bir ticket in 
+
+--- üzerinde yazilidir. Bu sayilar unique dir. Birden cok projeye verilmez 
+
+-- Biz ticket larimizdan birini silsek bile yeni olusturulan ticket a eskisinin numarasi verilmez 
+
+
+-- Not: Sadece scrum master lar sprint olusturabilir ve yönetebilir 
+
+-- Team member olarak biz bunu yapamayiz 
+
+-- Scrum master da Initiative olusturamaz 
+
+
+-- 
