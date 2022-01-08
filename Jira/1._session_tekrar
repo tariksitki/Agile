@@ -344,4 +344,18 @@
 -- Scrum master da Initiative olusturamaz 
 
 
--- 
+
+
+
+
+###### Create:
+
+-- yeni bir task yada baska birsey ürettigimizde, burada bu task i kime atadigimiz assignee
+
+-- label (görevi sort etmek icin filtrelemek icin cok önemli)
+
+-- sprint(hangi sprint te ele alinacagi )
+
+-- Reporter: kim olusturdu ise default olarak o gelir 
+
+
