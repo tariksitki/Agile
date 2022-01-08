@@ -1,0 +1,214 @@
+
+Agile bir Mindset tir. Scrum ve Kanban ise bu semsiye altinda uygulamalardir yani Framework lerdir 
+
+
+
+
+
+
+##### Workshop:
+
+-- Bir epic olusturalim 
+-- Summary olarak:  For a used car website, the target is to meet the wishes od users
+
+Not: Olusturulan epic ler Backlog larda yada board da görünmez 
+-- Roadmap de görebiliriz 
+
+-- Simsi takimdaki baska bir arkadas epic olustursun 
+-- Bu epic de tüm takim üyelerinin hesabinda görünür 
+
+
+-- Projemizin unique adi UCT oldugu icin olusturulan her bir epic e artan sekilde numara verilir 
+-- UCT 1 ,   UCT2 seklinde 
+
+
+-- Olusturulan epic üzerine tikladigimizda sag tarafta bir sayfa acilir
+---   ...  ya tiklayinca silme yapilabilir 
+
+
+-- Not: Labellar, ayni e ticaret mantiginda calisiyor. Yani biz kisilerin üzerinde calistigi 
+-- onlarca etiket arasindan, specific bir tane secmek istedigimizde, ve bu etkiet icin arama kelimelerini 
+-- girdigimizde, bize önceden girmis oldugumuz label larin icerisinde gectigi etiketleri cikaracaktir 
+
+
+-- Simdi bir story olusturalim:
+
+-- labellar: Prod,  software, design, test 
+
+-- Story point 3 
+
+-- Reporter olarak baskasi yazilabilir
+
+-- Attachment dan dosya klasör eklenebilir
+
+-- Blocks / is blocked:
+
+-- Bu secenek bizim olusturdugumuz task yada story nin bir is tarafindan bloklandigini yada 
+-- bizim isimizin baska bir isi blokladigini gösterir ve eger bu secenek olusturulursa
+-- ekranin solunda bir gösterge cikar 
+
+-- Yani mesela,  biz bir is yapacagiz ama bir takim arkadasimizdan bir is gelmeden o ise baslayamiyoruz.
+-- Bu durumda bizim isimiz arkadasin isi tarafindan bloklaniyor
+
+
+--- Story olusturduktan sonra, board da görünmedi. Cünkü henüz sprint yok 
+
+-- eger birden cok story yada task olusturacaksak, bu durumda en son asamada create tusu yaninda create another
+-- butonu tiklanabilir 
+
+-- Simdi backlog sekmesine geldigimizde sayfamizda birseyler eksik
+
+-- Bu nedenle sol altta Project settings e gelerek, burada issue types a geliyoruz ve story ile ilgili 
+-- ayarlarda;
+-- Priorität 
+-- Due Date 
+-- Time tracking ekliyoruz 
+-- digerleri de ilave edilebilir 
+
+
+-- Simdi 1. stora priotitat ini highest
+-- ikincisiyi de lowest yapiyoruz 
+
+
+-- Burada önceliklerin solunda bulunan yuvarlak kisimlara tikladigimizda story point ler degistiirlebilir 
+
+-- Isimlerin bas hard+flerinin yazdigi yuvarlaklara tiklayarak kisiler degisebilir 
+
+-- Board da birseyler olmaya sprint olusturulduktan sonra baslar 
+
+-- Backlog lari normal de product owner yapar biz simdi onun yerine bu isleri yaptik 
+
+-- Birde ileri seviyede söyle bir alternatif var:
+
+-- Biz excel tablosunda tüm epic, story ve task leri yaziyoruz. Tabloyu jiraya import ettigimizde 
+-- backlog olusmus oluyor
+
+
+-- Sprint olusturmak icin,  backlog sekmesinde create sprint diyoruz 
+
+
+-- ctrrl tusuna basarak birden cok story task secebiliyoruz ve bunlari sürükle birak ile sprint icerisine atiyoruz 
+
+
+-- Task yada story lerimize epic eklemek icin görevin üzerine tikliyoruz 
+-- sagda acilan pencerede add epic diyoruz 
+-- ve buradan epic seciyoruz 
+
+-- Bu ne ise yariyor:
+-- Görevleri basliklandirirken kullanilir. Bir epic e ait tüm alt görevler bittiginde
+-- o basligi iceren epic de sonlandirilmis olur 
+
+-- Jira ile takim halinde calismak zorunda degiliz.
+-- Bireysel olarak da calisabilirz 
+
+
+-- Tüm epic story task lar hazir olduktan sonra sprint start yapiyoruz 
+
+-- Burada zaman dilimini ister haftalik secebiliyoruz istersek de özel ayarlama yapabiliyoruz 
+
+-- Eger backlog asamasinda görevlerimizi in progress yada done a cekmezsek,
+
+-- sprint start dedigimizde tüm görevler to do bölümünde olmalidir 
+
+
+-- default olarak 3 tane sütun gelir 
+-- ama biz ihtiyacimiz cercevesinde, yeni sütunlar olusturabilirz 
+
+-- Mesela , developerlar kodu yazdiktan sonra done a cekmeden önce kidemli biri görsün diye review
+
+-- yada test sütunu, yada development gibi sütunlar eklenebilir 
+
+-- Sütunlarin yerleri degistirilebilir 
+
+
+-- Bir sütunda en fazla kac görev olacagi kisitlamasina, WIP Limit Working progress limit denir 
+
+-- Bu islem, her bir sütunun saginda bulunan ... vasitasi ile yapilir 
+--  (set limit butonu ile)
+
+-- Max limit ler asilabilir ama sütun rengi degisir 
+
+-- sprint basladiktan sonra da task yada story eklenebilir 
+
+-- Team calisanlarinin ulasim yetkileri;
+
+-- settings > user management 
+
+
+-- calisan olarak yetkimizde degisiklik yapilmasini istedigimizde manager a request de gönderebiliyoruz 
+
+-- user sekmesinde, kullanicilarin yaninda bulunan ...  ya tiklayarak kisilerin yetkileri üzerinde degisiklik yapabiliirz 
+
+-- stand up meeting:
+
+-- Dün ne yaptig
+-- Bugün ne yapacagim 
+-- Beni block layan birsey var mi
+
+-- Backlog sekmesinde, epic ismi üzerinde tikladigimizda detayli acilim olur bir daha basarsak kapanir 
+
+-- Board sekmesine geldigimizde ise, "Group by" butonunu secerek,
+-- gruplandirma imkanimiz var 
+
+-- Birisine bir mesaj atmak yada yorum yapmak icin o kisinin yaptigi ise board sekmesinde tikliyoruz ve 
+-- icerisinde comment ekle secenegi ile;
+-- @ahmet yapip mesaji yaziyoruz 
+
+-- Bir is hakkinda yapilan tüm islemleri görmek icin, board sekmesinde 
+-- ise tikliyoruz daha sonra history e tiklayip tüm gecmisi görebiliyoruz 
+
+-- Bir göreve flag eklemek icin, backlog sekmesinde görevin yaninda bulunan ... ya tiklanir ve "add flag"
+
+-- eger bir issue a pc mizde bulunan bir dosya yada klasör eklemek istersek,
+-- Board sekmesinde göreve tiklayip attach butonuna basiyoruz 
+
+-- Eger bir görev büyük bir görevse ve buna alt görevler eklemek istiyorsak,
+-- board sekmesinde göreve tiklanir ve "add a child issue" butonuna tiklanir 
+-- Burada görevin adi yazilir daha sonra kime atanacagi, öncelik derecesi ve hangi column da olacagi secilir 
+
+
+-- ancak su an olusturdugumuz task ve subtask lerde priority ve diger ekstra özellikleri göremeyiz 
+-- cünkü bu özellikleri daha önce sadece story icin yüklemistik 
+-- simdi de bunlar icin yükleyelim 
+
+
+-- Subtask e girdigimizde sol üstte subtask in bagli oldugu üst görev / subtask cikar 
+
+-- üst göreve tikladigimizda ona geceriz 
+-- ve burada da üst görevin bagli oldugu epic cikar 
+
+-- Board sekmesinde, bir görevin icerisine girdigimizde "child issue" sekmesi yaninda 
+-- link issue sekmesi cikar. eger bu butonun kendisine tiklarsak, baska bir issue yu 
+-- yani görevi icerisinde oldugumuz görev ile iliskilendiririz 
+-- eger bu butonun saginda bulunan ok'a tiklarsak bu durumda web site link leriz 
+--yani isimizle ilgili olan siteleri ekleyebilirz 
+
+
+
+-- Confluence ile jira arasinda baglanti sagladigimizda;
+
+-- board da görev icerisine girdigimizde, link issue sekmesinde,  add confluence seite secenegi cikar 
+
+- Burada, confluence üzerinde bulunan tüm sayfalarimizi ekleyebiliriz 
+
+-- Bu islem icin aciklama yazmak istersek, cooment kismina gelip "detaylar burada" yazip burada kelimesini link secenegi ile link yapabilirz
+-- Bu keliemeye tiklayan kisi direkt olarak belgeye gider 
+
+
+-- Bitbucket:
+
+-- Iki tool arasinda koordine saglandiktan sonra;
+
+-- Bitbucket da, jiradaki projemiz adinda olusturulan repo icerisinde herhangio bir degisiklik yaptik 
+-- mesela read me dosyasinda.
+-- daha sonra bunu commit yaparken, commit mesaji icerisinde jiradaki issue muzun adini ayni sekilde 
+-- geciriyoruz. mesela UCT-2 gibi. Bu islemi yaparken pull request olustur secenegini tik yapiyoruz 
+-- eger yapmazsak sonradan yapmak sikintili oluyor 
+
+
+-- Branch olusturmak icin, bitbucket da zaten olusturmak github gibi 
+-- ama ayni zamanda jiradan da olusturulabilir 
+
+-- 
+
+-- 
