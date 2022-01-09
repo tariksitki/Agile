@@ -233,6 +233,10 @@ Not: Olusturulan epic ler Backlog larda yada board da görünmez
 -- merge etmek icin merge tusuna bastigimizda, o anahtar kelime ile ilgili ticket imiz da 
 -- görüneceketir
 
+-- Simdi de vs code yada ubuntu git bash ile lokalimizde bir commit yapalim ve 
+-- Bunu push edelim. Eger jiradaki repo ile lokalimizde github ile calistigimiz 
+-- repo ayni ise anahtar kelimesi girilen issue direkt olarak jira da cikacaktir 
+
 -- Issue lara ait bir özellik olan Time Tracking, calisan kisilerin bu issue icin ne kadar zaman sarf ettiklerini gösterir 
 
 -- Bir Issue nun description kisminda yapilabilecekler:
