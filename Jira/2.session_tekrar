@@ -299,4 +299,25 @@ Not: Olusturulan epic ler Backlog larda yada board da görünmez
 -- izin verdiklerimiz erisebilir 
 
 
--- 
+
+
+######### Dashboard:
+
+-- Herhangi bir sekmede iken, üstte bulunan dashboard sekmesine tikladigimizda buradan istersek eski dashboard larimizi 
+-- secebilir yada yeni olusturabilirz 
+
+-- Dashboard umuza eklentile ekleyebiliriz. mesela;
+
+-- Activity stream 
+-- Average age chart (Burada zaman ayarlarini yapip proje secmemiz gerekir)
+-- Days remaining in sprint Gadget (sprint in kalan günlerini gösterir)
+
+
+-- Olusturma esnasinda, yetkileri secebilirz. yani diger kisilere sadece okuma yetkisi verebilirz 
+
+-- Olusturulan bu dashboard sirket ici team ile calisma icin olabilir 
+-- birde sadece kendimiz icin olusturabilir ve burada sadece activity stream ve assigned to me chartlarini
+-- ekleyebilirz. Olustururken de tüm sekmeleri privat yapariz ve kimsenin erisme yetkisi olmaz 
+
+-- ASSIGNED TO ME ile kendimize atanan isleri sürekli güncel olarak görebilirz 
+
