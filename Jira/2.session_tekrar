@@ -211,4 +211,49 @@ Not: Olusturulan epic ler Backlog larda yada board da görünmez
 
 -- 
 
--- 
+-- Github - Jira:
+
+-- Iki tool birbirine entegre edilirken github da bir tane repo secilir ve entegre isleminden sonra 
+-- jira ile islemler bu repo üzerinden gider. 
+
+-- Github repomuzda herhangi bir degisiklik yapilir ve commit aciklamasina "UCT-2" gibi anahtar kelime girilir 
+-- Daha sonra hangi anahtar kelime girdiysek o kelimenin ait oldugu issue da islemimiz görünür 
+
+
+-- Github da commit islemini yaparken ister direkt olarak main branch e commit yapabilirz yada 
+-- altta bulunan secenek vasitasi ile commit islemini yaparken ayni zamanda yeni bir branch olusturup 
+-- o branch den pull request olusturabilirz 
+
+-- Burada github da yada Bitbucket da yaptigimiz degisiklikler normalde önce bizim lokalimizde 
+-- jira üzerindeki issue larimiz ile ilgili dosya ve klasörlerde yapilir daha sonra issue muuzun 
+-- anahtar kelimesi ile commit yapilir ve push edilir. Ancak biz burada simule etmek icin uzak repo 
+-- da degisiklikler yapiyoruz 
+-- Lokal de commit yaparken git commit -m "" Burada tirnak icinde anahtar kelime yazilir 
+-- Anahtar kelime yazdigimiz icin, uzak repoda alt branch de yapilan degisikligi an abranch e 
+-- merge etmek icin merge tusuna bastigimizda, o anahtar kelime ile ilgili ticket imiz da 
+-- görüneceketir
+
+-- Issue lara ait bir özellik olan Time Tracking, calisan kisilerin bu issue icin ne kadar zaman sarf ettiklerini gösterir 
+
+-- Bir Issue nun description kisminda yapilabilecekler:
+
+-- Baslik ve metin ekleme 
+-- Link ekleme 
+-- Dosya yada Fotograf ekleme 
+-- Birisini mention lama 
+-- Emoji 
+-- Tabelle ekleme 
+-- <>  isaretine tiklayarak colab deki gibi bir code satiri acabilirz ve burada bize dil secenekleri sunulacaktir 
+-- Mesela python secerek direkt kod yazabilirz 
+
+-- Ve en sagda bulunan + butonu ile;
+-- Datum ekleyebilirz 
+-- Status ekleyebilirz 
+-- Ayirma cizgisi 
+-- Yorum eklenebilir 
+
+
+-- Board sekmesinde, sag üstte bulunan tuslar ile ;
+
+-- Sprint' i sonlandirabilirz 
+-- ... ya tiklayarak, sprint'i edit edebilirz 
