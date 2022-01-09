@@ -237,6 +237,11 @@ Not: Olusturulan epic ler Backlog larda yada board da görünmez
 -- Bunu push edelim. Eger jiradaki repo ile lokalimizde github ile calistigimiz 
 -- repo ayni ise anahtar kelimesi girilen issue direkt olarak jira da cikacaktir 
 
+-- Simdi de dosyalarimizi gitbash üzerinde acarak commit yapalim ve bunu push edelim 
+
+########### Not: Commit yaparken UCT-2 anahtar kelimesini büyük yazmak zorunda degiliz 
+--          Kücük harfler ile yazdigimizda da calisacaktir
+
 -- Issue lara ait bir özellik olan Time Tracking, calisan kisilerin bu issue icin ne kadar zaman sarf ettiklerini gösterir 
 
 -- Bir Issue nun description kisminda yapilabilecekler:
@@ -261,3 +266,37 @@ Not: Olusturulan epic ler Backlog larda yada board da görünmez
 
 -- Sprint' i sonlandirabilirz 
 -- ... ya tiklayarak, sprint'i edit edebilirz 
+
+
+
+
+
+
+
+
+
+
+
+############### Roadmap:
+
+-- Bu sekmede epic lerimizi görebiliriz 
+
+-- Epic lerimiz icin planladigimiz süreleri degistirebilir,
+-- Bunlarin sematik görünümleri üzerinde sürükleme islemi yapabilirz 
+- ve birbirleri ile iliskilendirebilirz 
+
+-- Epic lerin yaninda bulunan zaman göstergesinde, sag tarafta iliskilendir butonu vardir.
+-- Bununla iliskilendirme yapariz 
+
+-- epic zaman göstergesi üzerine tiklayinca sag tarafta detayli bilgi icin pencere acilir 
+
+-- Iliskilendirme yapan bag üzerine tiklayip  block diyerek aradaki bag kirilabilir 
+
+
+
+-- Jiranin uzak repoya erisimi ile 3. sahislarin erisimi farkli seylerdir. 
+-- eger jira ile iliskilendirdigimiz uzak repo privar bir repo ise, bu repoya 3. sahislardan sadece bizim 
+-- izin verdiklerimiz erisebilir 
+
+
+-- 
